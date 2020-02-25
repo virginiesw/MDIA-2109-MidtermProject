@@ -1,0 +1,61 @@
+.fallacypage {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#fallacypagetext {
+    font-family: 'Sugarpunch';
+    font-size: 3em;
+    text-align: center;
+}
+
+.gallerytext {
+    font-family: 'Bearskin';
+    font-size: 2em;
+    color: black;
+}
+
+/* .gallerytext:hover {
+    font-family: 'Bearskin';
+    font-size: 2em;
+    color: #F29E33;
+} */
+
+.galleryfallacy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.galleryimg {
+    width: 20vw;
+    height: 15vh;
+    mask-size: cover;
+    filter: blur(4px);
+}
+
+.galleryimg:hover {
+    width: 20vw;
+    height: 15vh;
+    mask-size: cover;
+    filter: blur(0px);
+}
+
+#fallacycontent {
+    margin: 5vw;;
+}
+
+#fallacygallery {
+    margin-top: 4vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 2vw;
+    grid-row-gap: 2vw;
+    
+}
