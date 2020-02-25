@@ -1,0 +1,32 @@
+@font-face{
+    font-family: 'Bearskin';
+    src: url('fonts/Bearskin\ DEMO.otf')
+    src: url('fonts/Bearskin\ DEMO.otf') format('embedded-opentype'),
+         url('fonts/Bearskin\ DEMO.otf') format('woff'),
+         url('fonts/Bearskin\ DEMO.otf') format('truetype'),
+         url('fonts/Bearskin\ DEMO.otf') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} 
+
+@font-face{
+    font-family: 'Fragmentcore';
+    src: url('fonts/Fragmentcore.otf')
+    src: url('fonts/Fragmentcore.otf') format('embedded-opentype'),
+         url('fonts/Fragmentcore.otf') format('woff'),
+         url('fonts/Fragmentcore.otf') format('truetype'),
+         url('fonts/Fragmentcore.otf') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} 
+
+@font-face{
+    font-family: 'Sugarpunch';
+    src: url('fonts/SugarpunchDEMO.otf')
+    src: url('fonts/SugarpunchDEMO.otf') format('embedded-opentype'),
+         url('fonts/SugarpunchDEMO.otf') format('woff'),
+         url('fonts/SugarpunchDEMO.otf') format('truetype'),
+         url('fonts/SugarpunchDEMO.otf') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} 
