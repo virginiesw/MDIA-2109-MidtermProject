@@ -56,6 +56,28 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-column-gap: 2vw;
-    grid-row-gap: 2vw;
-    
+    grid-row-gap: 2vw; 
+}
+
+.fallacytitle {
+    font-family: 'Sugarpunch';
+    font-size: 3em;
+}
+
+.fallacydescription {
+    font-family: 'Fragmentcore';
+}
+
+#adhominemcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.backtohome {
+    font-family: 'Fragmentcore';
+}
+
+.material-icons {
+    color: #5EC5B7;
 }
