@@ -46,14 +46,6 @@
     transition: 0.3s filter blur; */
 }
 
-
-.galleryimg .active {
-    width: 20vw;
-    height: 23vh;
-    mask-size: cover;
-    filter: grayscale(50%);
-}
-
 .galleryimg:hover {
     width: 20vw;
     height: 23vh;
