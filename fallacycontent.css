@@ -5,8 +5,25 @@
     font-size: 3em;
 }
 
+.backtohomebutton {
+    background-color: #5EC5B7;
+    color: white;
+    transform: scale(1.2);
+    border: none;
+    margin-right: 5px;
+}
+
+.backtohomebutton:hover {
+    background-color: #F29E33;
+    transform: scale(1.2);
+    border: 1px solid black;
+    color: black;
+    margin-right: 5px;
+}
+
 .fallacydescription {
     font-family: 'Fragmentcore';
+    font-size: 2vw;
 }
 
 .fallacycontent {
@@ -29,8 +46,16 @@
     margin: 5vw;
 }
 
+.material-icons:hover {
+    color: #F29E33;
+    transform: scale(7);
+    margin: 5vw;
+}
+
 .fallacypictures {
   object-fit: contain;
+  transform: scale(0.8);
+  margin: -3vw;
 }
 
 .fallacypicturecarousel {
