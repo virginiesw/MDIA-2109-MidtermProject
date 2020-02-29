@@ -52,7 +52,8 @@
 
 .fallacypictures {
   object-fit: contain;
-  margin: -3vw;
+  margin-top: 3vw;
+  margin-bottom: 2vw;
 }
 
 
