@@ -1,3 +1,5 @@
+@media (min-width: 988px){
+
 #homepage {
     width: 100vw;
     height: 100vh;
@@ -52,4 +54,5 @@
 
 #middlegroundpage {
     display: none;
+}
 }
