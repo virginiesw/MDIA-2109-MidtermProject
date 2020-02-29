@@ -28,16 +28,16 @@
                 <span id="fallacypagetext">CLICK ON A MEME TO LEARN MORE ABOUT IT</span>
                 <div id="fallacygallery">
                     <div class="galleryfallacy">
-                        <img class="galleryimg" src="img/auth1.JPG" alt="spongebob meme">
-                        <span class="gallerytext">APPEAL TO AUTHORITY</span>
+                        <img onclick="chooseAuth()" class="galleryimg" src="img/auth1.JPG" alt="spongebob meme">
+                        <span onclick="chooseAuth()" class="gallerytext">APPEAL TO AUTHORITY</span>
                     </div>
                     <div class="galleryfallacy">
-                        <img class="galleryimg" src="img/cherry2.jpg" alt="sweaty man meme">
-                        <span class="gallerytext">CHERRY PICKING</span>
+                        <img onclick="chooseCherry()" class="galleryimg" src="img/cherry2.jpg" alt="sweaty man meme">
+                        <span onclick="chooseCherry()" class="gallerytext">CHERRY PICKING</span>
                     </div>
                     <div class="galleryfallacy">
-                        <img class="galleryimg" src="img/mid1.JPG" alt="ohh meme">
-                        <span class="gallerytext">MIDDLE GROUND</span>
+                        <img onclick="chooseMiddle()" class="galleryimg" src="img/mid1.JPG" alt="ohh meme">
+                        <span onclick="chooseMiddle()" class="gallerytext">MIDDLE GROUND</span>
                     </div>
                 </div>
             </div>
@@ -162,5 +162,6 @@
 
     <script src="app.js"></script>
     <script src="homepage.js"></script>
+    <script src="choosefallacy.js"></script>
 </body>
 </html>
