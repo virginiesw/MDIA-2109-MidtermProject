@@ -1,5 +1,40 @@
+
+
+.fallacytitle {
+    font-family: 'Sugarpunch';
+    font-size: 3em;
+}
+
+.fallacydescription {
+    font-family: 'Fragmentcore';
+}
+
 .fallacycontent {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    
+}
+
+.backtohome {
+    font-family: 'Fragmentcore';
+}
+/* 
+.material-icons {
+    color: #5EC5B7;
+} */
+
+.material-icons {
+    color: #5EC5B7;
+    transform: scale(7);
+    margin: 5vw;
+}
+
+.fallacypictures {
+  object-fit: contain;
+}
+
+.fallacypicturecarousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

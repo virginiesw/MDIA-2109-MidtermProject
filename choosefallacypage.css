@@ -59,25 +59,25 @@
     grid-row-gap: 2vw; 
 }
 
-.fallacytitle {
+/* .fallacytitle {
     font-family: 'Sugarpunch';
     font-size: 3em;
-}
+} */
 
-.fallacydescription {
+/* .fallacydescription {
     font-family: 'Fragmentcore';
-}
+} */
 
-#adhominemcontent {
+/* .fallacycontent {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} */
 
-.backtohome {
+/* .backtohome {
     font-family: 'Fragmentcore';
 }
 
 .material-icons {
     color: #5EC5B7;
-}
+} */
