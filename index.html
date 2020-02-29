@@ -53,13 +53,13 @@
         <div class="fallacycontent">
             <span class="fallacytitle">APPEAL TO AUTHORITY</span>
             <div class="fallacypicturecarousel">
-                <i class="material-icons">
+                <i onclick="imageToggleAuthLeft()" class="material-icons">
                     arrow_left
                 </i>
                 <div class="fallacypictures">
-                    <img src="img/auth1.JPG" alt="man">
+                    <img id="image">
                 </div>
-                <i class="material-icons">
+                <i onclick="imageToggleAuthRight()" class="material-icons">
                     arrow_right
                 </i>
             </div>
@@ -163,5 +163,6 @@
     <script src="app.js"></script>
     <script src="homepage.js"></script>
     <script src="choosefallacy.js"></script>
+    <script src="imagetoggle.js"></script>
 </body>
 </html>
