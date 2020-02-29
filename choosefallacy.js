@@ -7,6 +7,7 @@ function chooseAuth(){
     document.querySelector("#authpage").style.display = "block";
     
     authread = true;
+    console.log(authread);
 }
 
 function chooseCherry(){
@@ -14,6 +15,7 @@ function chooseCherry(){
     document.querySelector("#cherrypage").style.display = "block";
 
     cherryread = true;
+    console.log(cherryread);
 }
 
 function chooseMiddle(){
@@ -24,7 +26,13 @@ function chooseMiddle(){
     console.log(midread);
 }
 
-if (midread === true && authread === true && cherryread === true){
-    document.querySelector("fallacyreadpage").style.display = "block";
-    document.querySelector("fallacypage").style.display = "none";
+function exitQuiz(){
+    document.querySelector("#appearonread").style.display = "none";
 }
+// function exitQuiz {
+//     document.querySelector("#appearonread").style.display = "none";
+// }
+
+// if (midread === true){
+//     document.querySelector("#appearonread").style.display = "block";
+// }

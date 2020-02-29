@@ -138,6 +138,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    display: none;
 }
 
 #popup {
@@ -146,7 +147,8 @@
     border-radius: 30px;
     background-color: white;
     position: absolute;
-    top: 30vh;
+    top: 30%;
+    left: 30%;
 }
 
 #popupflex {
