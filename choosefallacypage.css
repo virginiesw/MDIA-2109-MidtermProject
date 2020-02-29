@@ -1,10 +1,6 @@
 .fallacypage {
     width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    height: 100vh; 
 }
 
 #fallacypagetext {
@@ -30,35 +26,136 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .galleryimg {
     width: 20vw;
-    height: 15vh;
+    height: 23vh;
     mask-size: cover;
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: url(#blur);
     filter: blur(4px);
+    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='2');
+    -webkit-transition: 0.3s -webkit-filter linear;
+    -o-transition: 0.3s -o-filter linear;
+    /* filter: blur(4px);
+    transition: 0.3s filter blur; */
 }
 
 .galleryimg:hover {
     width: 20vw;
-    height: 15vh;
+    height: 23vh;
     mask-size: cover;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+    filter: url(#blur);
     filter: blur(0px);
+    /* filter: blur(0px); */
 }
 
 #fallacycontent {
     margin: 5vw;;
+    display: flex;
+    flex-direction: column;
 }
 
 #fallacygallery {
-    margin-top: 4vh;
+    margin-top: 20vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-column-gap: 2vw;
     grid-row-gap: 2vw; 
+
 }
 
+#xbutton {
+    transform: scale(1);
+    color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+#xbutton:hover {
+    transform: scale(2);
+    color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 10px;
+    margin-right: 15px;
+    transition: all 0.2s;
+}
+
+.startquiz {
+    background-color: #5EC5B7;
+    border-radius: 10px;
+    border: none;
+    width: 15vw;
+    height: 6vh;
+    color: white;
+    font-family: 'Bearskin';
+    font-size: 2vw;
+    border: none;
+    margin-top: 5vh;
+}
+
+.startquiz:hover {
+    background-color: #F29E33;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 15vw;
+    height: 6vh;
+    color: white;
+    font-family: 'Bearskin';
+    font-size: 2vw;
+    border: none;
+    margin-top: 5vh;
+}
+
+#readall {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#appearonread {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+#popup {
+    width: 50vw;
+    height: 40vh;
+    border-radius: 30px;
+    background-color: white;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+#popupflex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20%;
 /* .fallacytitle {
     font-family: 'Sugarpunch';
     font-size: 3em;

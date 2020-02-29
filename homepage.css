@@ -1,4 +1,4 @@
-.home {
+#homepage {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -36,4 +36,20 @@
     font-family: 'Bearskin';
     font-size: 2vw;
     border: 2px solid black;
+}
+
+#fallacypage {
+    display: none;
+}
+
+#authpage {
+    display: none;
+}
+
+#cherrypage {
+    display: none;
+}
+
+#middlegroundpage {
+    display: none;
 }

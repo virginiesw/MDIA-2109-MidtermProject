@@ -13,54 +13,77 @@
     <title>Fallacy Through Memes</title>
 </head>
 <body> 
-    <script src="app.js"></script>
 
     <!--Landing Page Start-->
-        <div class="home">
+        <div id="homepage">
             <span id="homepagehead">LEARN ABOUT FALLACIES <br> THROUGH MEMES</span> <br>
-            <button id="homebutton">START</button>
+            <button id="homebutton" onclick="StartButton()">START</button>
         </div>
     <!--Landing Page End-->
 
 
     <!--Home Page Start-->
-        <div class="fallacypage">
+        <div id="fallacypage">
             <div id="fallacycontent">
                 <span id="fallacypagetext">CLICK ON A MEME TO LEARN MORE ABOUT IT</span>
                 <div id="fallacygallery">
                     <div class="galleryfallacy">
-                        <img class="galleryimg" src="img/auth1.JPG" alt="spongebob meme">
-                        <span class="gallerytext">APPEAL TO AUTHORITY</span>
+                        <img onclick="chooseAuth()" class="galleryimg" src="img/auth1.JPG" alt="spongebob meme">
+                        <span onclick="chooseAuth()" class="gallerytext">APPEAL TO AUTHORITY</span>
                     </div>
                     <div class="galleryfallacy">
-                        <img class="galleryimg" src="img/cherry2.jpg" alt="sweaty man meme">
-                        <span class="gallerytext">CHERRY PICKING</span>
+                        <img onclick="chooseCherry()" class="galleryimg" src="img/cherry2.jpg" alt="sweaty man meme">
+                        <span onclick="chooseCherry()" class="gallerytext">CHERRY PICKING</span>
                     </div>
                     <div class="galleryfallacy">
-                        <img class="galleryimg" src="img/mid1.JPG" alt="ohh meme">
-                        <span class="gallerytext">MIDDLE GROUND</span>
+                        <img onclick="chooseMiddle()" class="galleryimg" id="midimg" src="img/mid1.JPG" alt="ohh meme">
+                        <span onclick="chooseMiddle()" class="gallerytext">MIDDLE GROUND</span>
                     </div>
+                </div>
+            </div>
+            <div id="appearonread">
+                <div id="readall"></div>
+                <div id="popup">
+                        <i onclick="exitQuiz()" class="material-icons" id="xbutton">
+                            clear
+                        </i>
+                        <div id="popupflex">
+                            <span class="gallerytext">Are You Ready To Take The Quiz?</span>
+                            <button class="startquiz">START QUIZ   &#10148</button>
+                        </div>
                 </div>
             </div>
         </div>
        
     <!--Home Page End-->
+
+    <!-- home page read start
+    <div id="readall">
+        <div id="popup">
+            <i class="material-icons" id="xbutton">
+                clear
+            </i>
+            <span class="gallerytext">Are You Ready To Take The Quiz?</span>
+            <button class="startquiz">START QUIZ &#10148</button>
+        </div>
+    </div>
+    home page read end -->
     
     <!--Appeal Page Start-->
 
     <div id="authpage">
-        <button class="backtohomebutton">&#8592</button>
+        <button onclick="backToHome()" class="backtohomebutton">&#8592</button>
         <span class="backtohome">back to home page</span>
         <div class="fallacycontent">
             <span class="fallacytitle">APPEAL TO AUTHORITY</span>
             <div class="fallacypicturecarousel">
-                <i class="material-icons">
+                <i onclick="imageToggleAuthLeft()" class="material-icons">
                     arrow_left
                 </i>
                 <div class="fallacypictures">
-                    <img src="img/auth1.JPG" alt="man">
+                    <img class="pics" id="imageauth">
                 </div>
-                <i class="material-icons">
+                <i onclick="imageToggleAuthRight()" class="material-icons">
                     arrow_right
                 </i>
             </div>
@@ -74,18 +97,18 @@
     <!--Cherry Page Start-->
 
     <div id="cherrypage">
-        <button class="backtohomebutton">&#8592</button>
+        <button onclick="backToHome()" class="backtohomebutton">&#8592</button>
         <span class="backtohome">back to home page</span>
         <div class="fallacycontent">
             <span class="fallacytitle">CHERRY PICKING</span>
             <div class="fallacypicturecarousel">
-                <i class="material-icons">
+                <i onclick="imageToggleCherryLeft()"  class="material-icons">
                     arrow_left
                 </i>
                 <div class="fallacypictures">
-                    <img class="pics" src="img/cherry1.jpg" alt="nasa">
+                    <img class="pics" id="imagecherry">
                 </div>
-                <i class="material-icons">
+                <i onclick="imageToggleCherryRight()" class="material-icons">
                     arrow_right
                 </i>
             </div>
@@ -98,18 +121,18 @@
 
     <!--Middle Page Start-->
     <div id="middlegroundpage">
-        <button class="backtohomebutton">&#8592</button>
+        <button onclick="backToHome()" class="backtohomebutton">&#8592</button>
         <span class="backtohome">back to home page</span>
         <div class="fallacycontent">
             <span class="fallacytitle">MIDDLE GROUND</span>
             <div class="fallacypicturecarousel">
-                <i class="material-icons">
+                <i onclick="imageToggleMidLeft()" class="material-icons">
                     arrow_left
                 </i>
                 <div class="fallacypictures">
-                    <img class="pics" src="img/mid1.JPG" alt="nasa">
+                    <img class="pics" id="imagemid">
                 </div>
-                <i class="material-icons">
+                <i onclick="imageToggleMidRight()" class="material-icons">
                     arrow_right
                 </i>
             </div>
@@ -161,6 +184,10 @@
 
 
 
-    
+    <script src="app.js"></script>
+    <script src="homepage.js"></script>
+    <script src="choosefallacy.js"></script>
+    <script src="imagetoggle.js"></script>
+    <script src="homebutton.js"></script>
 </body>
 </html>
