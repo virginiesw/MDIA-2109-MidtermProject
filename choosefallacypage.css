@@ -33,14 +33,38 @@
     width: 20vw;
     height: 23vh;
     mask-size: cover;
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: url(#blur);
     filter: blur(4px);
+    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='2');
+    -webkit-transition: 0.3s -webkit-filter linear;
+    -o-transition: 0.3s -o-filter linear;
+    /* filter: blur(4px);
+    transition: 0.3s filter blur; */
+}
+
+
+.galleryimg .active {
+    width: 20vw;
+    height: 23vh;
+    mask-size: cover;
+    filter: grayscale(50%);
 }
 
 .galleryimg:hover {
     width: 20vw;
     height: 23vh;
     mask-size: cover;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+    filter: url(#blur);
     filter: blur(0px);
+    /* filter: blur(0px); */
 }
 
 #fallacycontent {
