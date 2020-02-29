@@ -1,3 +1,5 @@
+@media (min-width: 988px){
+
 .fallacytitle {
     font-family: 'Sugarpunch';
     font-size: 3em;
@@ -61,4 +63,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
 }
