@@ -22,7 +22,8 @@
     height: 6vh;
     color: white;
     font-family: 'Bearskin';
-    font-size: 2.5em;
+    font-size: 2vw;
+    border: none;
 }
 
 #homebutton:hover {
@@ -33,5 +34,6 @@
     height: 6vh;
     color: white;
     font-family: 'Bearskin';
-    font-size: 2em;
+    font-size: 2vw;
+    border: 2px solid black;
 }
