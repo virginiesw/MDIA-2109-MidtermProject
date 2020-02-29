@@ -47,7 +47,7 @@ function imageToggleMidRight(){
     document.querySelector("#imagemid").src = "img/mid"+image_statemid+".JPG"
 }
 
-function imageToggleCherryLeft(){
+function imageToggleMidLeft(){
     image_statemid--;
     if(image_statemid < 1){
         image_statemid = 3;
