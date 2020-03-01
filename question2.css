@@ -1,0 +1,43 @@
+#quizpage2, #quizpage5 {
+    width: 100vw;
+    height: 100vw;
+    display: none;
+}
+.q2 {
+    display: flex;
+    flex-direction: column;
+    flex: 10;
+    justify-content: center;
+    align-items: center;
+}
+
+.q2_answerbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+    bottom: -20em;
+}
+.answer {
+    border: 1px solid #5EC5B7;
+    width: 20vw;
+    height: 4vh;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.gobutton {
+    background-color: #5EC5B7;
+    font-size: 2em;
+    color: white;
+    font-family: 'Bearskin';
+    border-radius: 10px;
+    width: 2em;
+    height: 1.5em;
+}
+
+.q2_text {
+    position: relative;
+    top: 5em;
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,53 +10,60 @@
     <link href="choosefallacypage.css" rel="stylesheet">
     <link href="fallacycontent.css" rel="stylesheet">
     <link href="mobile.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link href="quizcontent.css" rel="stylesheet">
+    <link href="question1.css" rel="stylesheet">
+    <link href="question2.css" rel="stylesheet">
+    <link href="question3.css" rel="stylesheet">
+    <link href="quizresults.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Fallacy Through Memes</title>
 </head>
-<body> 
+
+<body>
 
     <!--Landing Page Start-->
-        <div id="homepage">
-            <span id="homepagehead">LEARN ABOUT FALLACIES <br> THROUGH MEMES</span> <br>
-            <button id="homebutton" onclick="StartButton()">START</button>
-        </div>
+    <div id="homepage">
+        <span id="homepagehead">LEARN ABOUT FALLACIES <br> THROUGH MEMES</span> <br>
+        <button id="homebutton" onclick="StartButton()">START</button>
+    </div>
     <!--Landing Page End-->
 
 
     <!--Home Page Start-->
-        <div id="fallacypage">
-            <div id="fallacycontent">
-                <span id="fallacypagetext">CLICK ON A MEME TO LEARN MORE ABOUT IT</span>
-                <div id="fallacygallery">
-                    <div class="galleryfallacy">
-                        <img onclick="chooseAuth()" class="galleryimg" id="imageauthbw" src="img/auth1.JPG" alt="spongebob meme">
-                        <span onclick="chooseAuth()" class="gallerytext">APPEAL TO AUTHORITY</span>
-                    </div>
-                    <div class="galleryfallacy">
-                        <img onclick="chooseCherry()" class="galleryimg" id="imagecherrybw" src="img/cherry2.jpg" alt="sweaty man meme">
-                        <span onclick="chooseCherry()" class="gallerytext">CHERRY PICKING</span>
-                    </div>
-                    <div class="galleryfallacy">
-                        <img onclick="chooseMiddle()" class="galleryimg" id="imagemidbw" src="img/mid1.JPG" alt="ohh meme">
-                        <span onclick="chooseMiddle()" class="gallerytext">MIDDLE GROUND</span>
-                    </div>
+    <div id="fallacypage">
+        <div id="fallacycontent">
+            <span id="fallacypagetext">CLICK ON A MEME TO LEARN MORE ABOUT IT</span>
+            <div id="fallacygallery">
+                <div class="galleryfallacy">
+                    <img onclick="chooseAuth()" class="galleryimg" id="imageauthbw" src="img/auth1.JPG"
+                        alt="spongebob meme">
+                    <span onclick="chooseAuth()" class="gallerytext">APPEAL TO AUTHORITY</span>
                 </div>
-            </div>
-            <div id="appearonread">
-                <div id="readall"></div>
-                <div id="popup">
-                        <i onclick="exitQuiz()" class="material-icons" id="xbutton">
-                            clear
-                        </i>
-                        <div id="popupflex">
-                            <span class="gallerytext">Are You Ready To Take The Quiz?</span>
-                            <button class="startquiz">START QUIZ   &#10148</button>
-                        </div>
+                <div class="galleryfallacy">
+                    <img onclick="chooseCherry()" class="galleryimg" id="imagecherrybw" src="img/cherry2.jpg"
+                        alt="sweaty man meme">
+                    <span onclick="chooseCherry()" class="gallerytext">CHERRY PICKING</span>
+                </div>
+                <div class="galleryfallacy">
+                    <img onclick="chooseMiddle()" class="galleryimg" id="imagemidbw" src="img/mid1.JPG" alt="ohh meme">
+                    <span onclick="chooseMiddle()" class="gallerytext">MIDDLE GROUND</span>
                 </div>
             </div>
         </div>
-       
+        <div id="appearonread">
+            <div id="readall"></div>
+            <div id="popup">
+                <i onclick="exitQuiz()" class="material-icons" id="xbutton">
+                    clear
+                </i>
+                <div id="popupflex">
+                    <span class="gallerytext">Are You Ready To Take The Quiz?</span>
+                    <button class="startquiz">START QUIZ &#10148</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!--Home Page End-->
 
     <!-- home page read start
@@ -69,7 +77,7 @@
         </div>
     </div>
     home page read end -->
-    
+
     <!--Appeal Page Start-->
 
     <div id="authpage">
@@ -88,10 +96,11 @@
                     arrow_right
                 </i>
             </div>
-            <span class="fallacydescription">Insisting that a claim is true just because an expert on the subject said that it is true, without giving any real explanation</span>
+            <span class="fallacydescription">Insisting that a claim is true just because an expert on the subject said
+                that it is true, without giving any real explanation</span>
         </div>
     </div>
-   
+
     <!--Appeal Page End-->
 
 
@@ -103,7 +112,7 @@
         <div class="fallacycontent">
             <span class="fallacytitle">CHERRY PICKING</span>
             <div class="fallacypicturecarousel">
-                <i onclick="imageToggleCherryLeft()"  class="material-icons">
+                <i onclick="imageToggleCherryLeft()" class="material-icons">
                     arrow_left
                 </i>
                 <div class="fallacypictures">
@@ -113,10 +122,11 @@
                     arrow_right
                 </i>
             </div>
-            <span class="fallacydescription">Only selecting and using evidence that supports your idea, ignoring the evidence that does not support your idea.</span>
+            <span class="fallacydescription">Only selecting and using evidence that supports your idea, ignoring the
+                evidence that does not support your idea.</span>
         </div>
     </div>
-   
+
     <!--Cherry Page End-->
 
 
@@ -137,50 +147,159 @@
                     arrow_right
                 </i>
             </div>
-            <span class="fallacydescription">Deciding that the middle point between two extremes must be the truth.</span>
+            <span class="fallacydescription">Deciding that the middle point between two extremes must be the
+                truth.</span>
         </div>
     </div>
-   
+
     <!--Middle  Page End-->
-    
+
 
     <!--Quiz Start Page Start -->
-   
+
     <!--Quiz End Page End-->
 
 
 
     <!--Quiz Page1 Start-->
-   
+    <div id="quizpage1">
+        <button onclick="backToHome()" class="backtohomebutton">&#8592</button>
+        <span class="backtohome">back to home page</span>
+        <div class="questioncontent">
+            <span class="question">1. The following meme is</br>an example of which fallacy?</span>
+            <div class="q1">
+                <div class="q1choices q1left">
+                    <button class="question_button teal">Ad Hominem</button>
+                    <button class="question_button red">Appeal</button>
+                </div>
+                <div>
+                    <img src="img/cherry2.jpg" />
+                </div>
+                <div class="q1choices q1right">
+                    <button class="question_button purple">Cherry Picking</button>
+                    <button class="question_button orange">Ad Eminem</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <!--Quiz Page1 End-->
 
+
     <!--Quiz Page2 Start-->
-   
+    <div id="quizpage2">
+        <button class="backtoprevbutton">&#8592</button>
+        <span class="backtoprev">back to previous question</span>
+        <div class="questioncontent">
+            <span class="question">2. Which fallacy does the</br>following describe?</span>
+            <div class="q2">
+                <span class="question_text q2_text">Insisting that a claim is true just because an expert on the issue
+                    said it
+                    was true,</br>without giving any explanation. </span>
+                <div class="q2_answerbox">
+                    <input class="answer" type="text">
+                    <button class="gobutton">GO!</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <!--Quiz Page2 End-->
 
 
     <!--Quiz Page3 Start-->
-   
+    <div id="quizpage3">
+        <button class="backtoprevbutton">&#8592</button>
+        <span class="backtoprev">back to previous question</span>
+        <div class="questioncontent">
+            <span class="question">3. Appeal to Authority is:</span>
+            <div class="q3">
+                <img class="q3_img" src=img/mid2.jpg>
+                <span class="question_text">OR</span>
+                <img class="q3_img" src="img/auth2.jpg">
+            </div>
+            <div class="q3_chooseone">
+                <span class="question_text">(CHOOSE ONE)</span>
+            </div>
+        </div>
+    </div>
     <!--Quiz Page3 End-->
 
 
     <!--Quiz Page4 Start-->
-   
+    <div id="quizpage4">
+        <button onclick="backToHome()" class="backtohomebutton">&#8592</button>
+        <span class="backtohome">back to home page</span>
+        <div class="questioncontent">
+            <span class="question">4. The following meme is</br>an example of which fallacy?</span>
+            <div class="q1">
+                <div class="q1choices qleft">
+                    <button class="question_button teal">Ad Hominem</button>
+                    <button class="question_button red">Middle Ground</button>
+                </div>
+                <div>
+                    <img src="img/mid1.jpg" />
+                </div>
+                <div class="q1choices qright">
+                    <button class="question_button purple">Cherry Picking</button>
+                    <button class="question_button orange">High Ground</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <!--Quiz Page4 End-->
 
 
     <!--Quiz Page5 Start-->
-   
+    <div id="quizpage5">
+        <button class="backtoprevbutton">&#8592</button>
+        <span class="backtoprev">back to previous question</span>
+        <div class="questioncontent">
+            <span class="question">5. Which fallacy does the</br>following describe?</span>
+            <div class="q2">
+                <span class="question_text">Claiming that the middle point of 2 extremes must be the truth. </span>
+                <div class="q2_answerbox">
+                    <input class="answer" type="text">
+                    <button class="gobutton">GO!</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <!--Quiz Page5 End-->
 
 
     <!--Quiz Page6 Start-->
-   
+    <div id="quizpage6">
+        <button class="backtoprevbutton">&#8592</button>
+        <span class="backtoprev">back to previous question</span>
+        <div class="questioncontent">
+            <span class="question">6. Cherry Picking is:</span>
+            <div class="q3">
+                <img class="q6_img" src=img/cherry3.jpg>
+                <span class="question_text">OR</span>
+                <img class="q6_img" src="img/auth1.jpg">
+            </div>
+            <div class="q3_chooseone">
+                <span class="question_text">(CHOOSE ONE)</span>
+            </div>
+        </div>
+    </div>
     <!--Quiz Page6 End-->
 
 
     <!--Quiz congrats Start-->
-   
+    <div id="quizpage_last">
+        <div id="quizpage_last_content">
+            <img id="congrats_img" src = "img/last.jpg"/>
+            <div id="results">
+                <span id="score">Your Score:</span>
+                <div id="replay">
+                    <i id="replaybutton" class="material-icons">
+                        replay
+                    </i>
+                    <span id="replay_text">Take the quiz again</span>
+                </div>
+            </div>
+        </div>
+    </div>
     <!--Quiz congrats End-->
 
 
@@ -191,4 +310,5 @@
     <script src="imagetoggle.js"></script>
     <script src="homebutton.js"></script>
 </body>
+
 </html>
