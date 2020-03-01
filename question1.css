@@ -1,0 +1,52 @@
+#quizpage1, #quizpage4 {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+
+.question_button {
+    border-radius: 10px;
+    border: none;
+    width: 15vw;
+    height: 5vh;
+    color: white;
+    font-family: 'Bearskin';
+    font-size: 3vw;
+    margin: 50px;
+}
+
+.question_button:hover {
+    opacity: 0.5;
+}
+
+.teal {
+    background-color: #5EC5B7;
+}
+
+.red {
+    background-color: #E83F36;
+}
+
+.purple {
+    background-color: #6564DC;
+    font-size: 2.5vw;
+}
+
+.orange {
+    background-color: #F29E33;
+}
+
+.q1 {
+    display: flex;
+    margin-top: 150px;
+}
+
+.q1choices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+

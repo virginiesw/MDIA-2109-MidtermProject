@@ -1,0 +1,63 @@
+#quizpage_last {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+#quizpage_last_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#congrats_img {
+    width: 40vw;
+    height: auto;
+    background-size: cover;
+}
+
+#results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+#score {
+    font-family: 'Sugarpunch';
+    font-size: 4em;
+    border: 5px solid #5EC5B7;
+    border-radius: 10px;
+    padding: 15px;
+    padding-top: 35px;
+    margin-bottom: 80px;
+}
+
+#replay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#replaybutton {
+    background-color: #5EC5B7;
+    color: white;
+    transform: scale(2.0);
+    padding: 5px;
+    border-radius: 3px;
+    width: 3vw;
+    text-align: center;
+}
+
+#replaybutton:hover {
+    background-color: #F29E33;
+    transform: scale(2.0);
+}
+
+#replay_text {
+    font-family: 'Bearskin';
+    font-size: 3vw;
+}

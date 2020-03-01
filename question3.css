@@ -1,0 +1,61 @@
+#quizpage3, #quizpage6 {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+
+#q3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.q3_img {
+    width: auto;
+    height: 35vh;
+    background-size: cover;
+    position: relative;
+    top: 5em;
+    margin: 40px;
+}
+
+.q3_img:hover {
+    mask-size: cover;
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: url(#blur);
+    filter: blur(4px);
+    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='2');
+    -webkit-transition: 0.3s -webkit-filter linear;
+    -o-transition: 0.3s -o-filter linear;
+}
+
+.q3_chooseone {
+    position: relative;
+    bottom: -10em;
+}
+
+.q6_img {
+    width: 40vw;
+    height: 30vh;
+    background-size: cover;
+    position: relative;
+    top: 5em;
+    margin: 40px;
+}
+
+.q6_img:hover {
+    mask-size: cover;
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: url(#blur);
+    filter: blur(4px);
+    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='2');
+    -webkit-transition: 0.3s -webkit-filter linear;
+    -o-transition: 0.3s -o-filter linear;
+}
