@@ -4,8 +4,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+
+}
+
+#homepage {
     display: none;
 }
+
 #quizpage_last_content {
     display: flex;
     justify-content: center;
@@ -60,4 +66,82 @@
 #replay_text {
     font-family: 'Bearskin';
     font-size: 3vw;
+}
+
+@media (min-width: 400px) and (max-width: 1025px) {
+    #quizpage_last_content{
+        margin: 0.2em;
+    }
+    
+    #results {
+        margin-left: 0;
+    }
+
+    #score {
+        font-size: 3em;
+    }
+
+    #congrats_img {
+        width: 50vw;
+    }
+
+    #replay {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1em;
+    }
+
+    #replaybutton {
+        width: 3vw;
+        margin: 1em;
+        text-align: center;
+    }
+    
+    #replay_text {
+        font-size: 5vw;
+    }
+}
+}
+
+@media (max-width: 400px) {
+    #quizpage_last_content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #congrats_img {
+        width: 80vw;
+        height: auto;
+        background-size: cover;
+    }
+
+    #score {
+        font-size: 2em;
+        text-align: center;
+        margin: 0.5em;
+        padding: 10px;
+        padding-top: 25px;
+    }
+
+    #results {
+        margin-left: 0;
+    }
+
+    #replay {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1em;
+    }
+
+    #replaybutton {
+        width: 5vw;
+        margin: 1em;
+        text-align: center;
+    }
+    
+    #replay_text {
+        font-size: 5vw;
+    }
 }
