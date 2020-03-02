@@ -41,6 +41,13 @@ function QuizResults() {
     document.querySelector("#quizpage_last").style.display = "block";
 }
 
+// function myFunction() {
+//     var inpObj = document.getElementById("firstinput");
+//     if (!inpObj.checkValidity()) {
+//       document.getElementById("quizpage2").innerHTML = inpObj.validationMessage;
+//     }
+//   }
+
 //function validateForm() {
     //var input = document.forms["answer"]["answerfield"].value;
     //if (input == "") {
