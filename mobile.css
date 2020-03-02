@@ -38,7 +38,6 @@
     color: white;
     font-family: 'Bearskin';
     font-size: 5vw;
-    border: 2px solid black;
 }
 
 #fallacypage {
@@ -236,8 +235,6 @@
 .backtohomebutton:hover {
     background-color: #F29E33;
     transform: scale(1.2);
-    border: 1px solid black;
-    color: black;
     margin-right: 5px;
 }
 
