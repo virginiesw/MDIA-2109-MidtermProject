@@ -178,7 +178,7 @@
                     <img class="q1_img" src="img/cherry2.jpg" />
                 </div>
                 <div class="q1choices q1right">
-                    <button onclick="NextQuestion1()" class="question_button purple">Cherry Picking</button>
+                    <button onclick="NextQuestion1()" onclick="rightAnswer1()" class="question_button purple">Cherry Picking</button>
                     <button onclick="NextQuestion1()" class="question_button orange">Ad Eminem</button>
                 </div>
             </div>
@@ -188,7 +188,7 @@
 
 
     <!--Quiz Page2 Start-->
-    <div id="quizpage2">
+    <!-- <div id="quizpage2">
         <button onclick="backToPrev()" class="backtoprevbutton">&#8592</button>
         <span class="backtoprev">back to previous question</span>
         <div class="questioncontent">
@@ -200,6 +200,28 @@
                 <div class="q2_answerbox">
                     <input class="answer" name ="answer" type="text">
                     <button onclick="NextQuestion2()" onclick="myFunction()" class="gobutton">GO!</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div id="quizpage2">
+        <button onclick="backToHome()" class="backtohomebutton">&#8592</button>
+        <span class="backtohome">back to home page</span>
+        <div class="questioncontent">
+            <span class="question">2. Which fallacy does the</br>following describe?</span>
+            <div class="q1">
+                <div class="q1choices q1left">
+                    <button onclick="NextQuestion1()" class="question_button teal">Cherry Gathering</button>
+                    <button onclick="NextQuestion1()" onclick="rightAnswer2()" class="question_button red">Appeal To Authority</button>
+                </div>
+                <div>
+                    <span class="question_text q2_text">Insisting that a claim is true just because an expert on the issue
+                        said it
+                        was true,</br>without giving any explanation. </span>
+                </div>
+                <div class="q1choices q1right">
+                    <button onclick="NextQuestion1()" class="question_button purple">Apple Picking</button>
+                    <button onclick="NextQuestion1()" class="question_button orange">Middle Ground</button>
                 </div>
             </div>
         </div>
@@ -216,7 +238,7 @@
             <div class="q3">
                 <img onclick="NextQuestion3()" class="q3_img" src=img/mid2.jpg>
                 <span class="question_text">OR</span>
-                <img onclick="NextQuestion3()" class="q3_img" src="img/auth2.jpg">
+                <img onclick="NextQuestion3()" onclick="rightAnswer3()" class="q3_img" src="img/auth2.jpg">
             </div>
             <div class="q3_chooseone">
                 <span class="question_text">(CHOOSE ONE)</span>
@@ -235,7 +257,7 @@
             <div class="q1 " id="q4">
                 <div class="q1choices q4_choices">
                     <button onclick="NextQuestion4()" class="question_button teal">Ad Hominem</button>
-                    <button onclick="NextQuestion4()" class="question_button red">Middle Ground</button>
+                    <button onclick="NextQuestion4()" onclick="rightAnswer4()" class="question_button red">Middle Ground</button>
                 </div>
                 <div>
                     <img id= "q4_img" src="img/mid1.jpg" />
@@ -251,7 +273,7 @@
 
 
     <!--Quiz Page5 Start-->
-    <div id="quizpage5">
+    <!-- <div id="quizpage5">
         <button class="backtoprevbutton">&#8592</button>
         <span class="backtoprev">back to previous question</span>
         <div class="questioncontent">
@@ -261,6 +283,26 @@
                 <div class="q2_answerbox">
                     <input class="answer" type="text">
                     <button onclick="NextQuestion5()" class="gobutton">GO!</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div id="quizpage5">
+        <button onclick="backToHome()" class="backtohomebutton">&#8592</button>
+        <span class="backtohome">back to home page</span>
+        <div class="questioncontent">
+            <span class="question">5. Which fallacy does the</br>following describe?</span>
+            <div class="q1">
+                <div class="q1choices q1left">
+                    <button onclick="NextQuestion1()" class="question_button teal">Cherry Gathering</button>
+                    <button onclick="NextQuestion1()" class="question_button red">Appeal To Authority</button>
+                </div>
+                <div>
+                    <span class="question_text q2_text">Claiming that the middle point of 2 extremes must be the truth. </span>
+                </div>
+                <div class="q1choices q1right">
+                    <button onclick="NextQuestion1()" class="question_button purple">Ad Hominem</button>
+                    <button onclick="NextQuestion1()" onclick="rightAnswer5()" class="question_button orange">Middle Ground</button>
                 </div>
             </div>
         </div>
@@ -275,7 +317,7 @@
         <div class="questioncontent">
             <span class="question">6. Cherry Picking is:</span>
             <div class="q3">
-                <img onclick = "QuizResults()" class="q6_img" src=img/cherry3.jpg>
+                <img onclick = "QuizResults()" onclick="rightAnswer6()" class="q6_img" src=img/cherry3.jpg>
                 <span class="question_text">OR</span>
                 <img onclick = "QuizResults()" class="q6_img" src="img/auth1.jpg">
             </div>
