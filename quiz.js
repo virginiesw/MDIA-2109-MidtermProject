@@ -1,9 +1,45 @@
 var question_state = 1;
+var answer1 = false;
+var answer2 = false;
+var answwer3 = false;
+var answer4 = false;
+var answer5 = false;
+var answer6 = false;
 
 function StartQuiz() {
     document.querySelector("#fallacypage").style.display = "none";
     document.querySelector("#quizpage1").style.display = "block";
     document.querySelector("#quizpage_last").style.display = "none";
+}
+
+function rightAnswer1() {
+    answer1 = true;
+    console.log(answer1);
+}
+
+function rightAnswer2() {
+    answer2 = true;
+    console.log(answer2);
+}
+
+function rightAnswer3() {
+    answer3 = true;
+    console.log(answer3);
+}
+
+function rightAnswer4() {
+    answer4 = true;
+    console.log(answer4);
+}
+
+function rightAnswer5() {
+    answer5 = true;
+    console.log(answer5);
+}
+
+function rightAnswer6() {
+    answer6 = true;
+    console.log(answer6);
 }
 
 function NextQuestion1() {
