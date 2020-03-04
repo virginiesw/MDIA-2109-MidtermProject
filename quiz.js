@@ -3,7 +3,7 @@ var question_state = 1;
 function StartQuiz() {
     document.querySelector("#fallacypage").style.display = "none";
     document.querySelector("#quizpage1").style.display = "block";
-    document.querySelector("#quizpage_last").style.display = "none";
+    // document.querySelector("#quizpage_last").style.display = "none";
 }
 
 function NextQuestion1() {
@@ -49,20 +49,20 @@ function QuizResults() {
     //}
 //}
 
-function backToPrev(){
-    if (question_state === 2){
-        StartQuiz();
-    } else if (question_state === 3){
-        document.querySelector("#fallacypage").style.display = "none";
-        NextQuestion1();
-    } else if (question_state === 4){
-        document.querySelector("#fallacypage").style.display = "none";
-        NextQuestion2();
-    } else if (question_state === 5){
-        document.querySelector("#fallacypage").style.display = "none";
-        NextQuestion3();
-    } else if (question_state === 6){
-        document.querySelector("#fallacypage").style.display = "none";
-        NextQuestion2();
-    }
-}
+// function backToPrev(){
+//     if (question_state === 2){
+//         StartQuiz();
+//     } else if (question_state === 3){
+//         document.querySelector("#fallacypage").style.display = "none";
+//         NextQuestion1();
+//     } else if (question_state === 4){
+//         document.querySelector("#fallacypage").style.display = "none";
+//         NextQuestion2();
+//     } else if (question_state === 5){
+//         document.querySelector("#fallacypage").style.display = "none";
+//         NextQuestion3();
+//     } else if (question_state === 6){
+//         document.querySelector("#fallacypage").style.display = "none";
+//         NextQuestion2();
+//     }
+// }

@@ -1,3 +1,43 @@
+#quizpage2 {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+
+#quizpage5 {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+
+#quizpage2content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+#quizpage5content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.quizdescription {
+    font-size: 2em;
+    font-family: Fragmentcore;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+}
+
+.answerscontentbox {
+    display: flex;
+}
+
 /* #quizpage2, #quizpage5 {
     width: 100vw;
     height: 100vw;

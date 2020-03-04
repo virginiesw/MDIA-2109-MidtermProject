@@ -1,4 +1,6 @@
-/* #quizpage1, #quizpage4 {
+
+
+#quizpage1, #quizpage4 {
     width: 100vw;
     height: 100vh;
     display: none;
@@ -11,12 +13,20 @@
     height: 5vh;
     color: white;
     font-family: 'Bearskin';
-    font-size: 3vw;
+    font-size: 2em;
     margin: 50px;
 }
 
 .question_button:hover {
-    opacity: 0.5;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 15vw;
+    height: 5vh;
+    color: white;
+    font-family: 'Bearskin';
+    font-size: 2em;
+    margin: 50px;
+    
 }
 
 .teal {
@@ -107,4 +117,4 @@
         width: 100vw;
         height: 30vh;
     }
-} */
+} 
