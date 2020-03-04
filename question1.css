@@ -26,8 +26,8 @@
     font-family: 'Bearskin';
     font-size: 2em;
     margin: 50px;
-    
 }
+
 
 .teal {
     background-color: #5EC5B7;
@@ -44,6 +44,10 @@
 
 .orange {
     background-color: #F29E33;
+}
+
+.large {
+    width: 20vw;
 }
 
 .q1 {
