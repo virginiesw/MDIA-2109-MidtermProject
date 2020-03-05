@@ -32,7 +32,7 @@
 }
 
 .galleryimg {
-    width: 20vw;
+    width: 20vw;;
     height: 23vh;
     mask-size: cover;
     -webkit-filter: blur(4px);
