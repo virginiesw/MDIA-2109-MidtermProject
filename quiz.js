@@ -9,6 +9,7 @@ var answer6 = false;
 function StartQuiz() {
     document.querySelector("#fallacypage").style.display = "none";
     document.querySelector("#quizpage1").style.display = "block";
+    document.querySelector("#quizpage_last").style.display = "none";
     // document.querySelector("#quizpage_last").style.display = "none";
 }
 

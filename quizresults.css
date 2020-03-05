@@ -108,7 +108,7 @@
 @media (max-width: 400px) {
     #quizpage_last_content {
         display: flex;
-        flex-direction: column;
+        flex-direction:
     }
 
     #congrats_img {
@@ -118,7 +118,7 @@
     }
 
     #score {
-        font-size: 2em;
+        font-size: 1em;
         text-align: center;
         margin: 0.5em;
         padding: 10px;

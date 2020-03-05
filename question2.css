@@ -4,6 +4,10 @@
     display: none;
 }
 
+#question2title {
+    margin-top: 7vh;
+}
+
 #quizpage5 {
     width: 100vw;
     height: 100vh;
@@ -13,7 +17,7 @@
 .question_buttonlarge {
     border-radius: 10px;
     border: none;
-    width: auto;
+    width: 200px;;
     height: 5vh;
     color: white;
     font-family: 'Bearskin';
@@ -24,7 +28,7 @@
 .question_buttonlarge:hover {
     border-radius: 10px;
     border: 2px solid black;
-    width: auto;
+    width: 200;
     height: 5vh;
     color: white;
     font-family: 'Bearskin';
@@ -58,6 +62,8 @@
 
 .answerscontentbox {
     display: flex;
+    justify-content: center;
+    align-items:center;
 }
 
 @media (max-width: 400px) {
