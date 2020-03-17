@@ -1,4 +1,4 @@
-@media (min-width: 1025px) {
+
     .questioncontent {
         display: flex;
         flex-direction: column;
@@ -34,7 +34,7 @@
         font-family: 'Fragmentcore';
     } */
 
-    #previousquiz {
+    .previousquiz {
         display: flex;
         align-content: center;
         justify-content: center;
@@ -48,20 +48,23 @@
         background-color: #5EC5B7;
         width: 25px;
         color: white;
-        transform: scale(1.2);
+        transform: scale(2);
         border: none;
-        margin-right: 10px;
+        margin-right: 20px;
+        margin-left: 10px;
     }
 
     .previousquestion:hover {
         background-color: #F29E33;
-        transform: scale(1.2);
-        margin-right: 10px;
+        transform: scale(2);
+        margin-right: 20px;
+        margin-left: 10px;
     }
 
     .previousquestiontext {
         font-family: 'Fragmentcore';
         font-size: 1.2em;
+        margin-left: 10px;
     }
 
     .question_text {
@@ -69,7 +72,7 @@
         font-size: 3vw;
         line-height: 1.5;
     }
-}
+
 
 @media (min-width: 400px) and (max-width: 1025px) {
     .questioncontent {
@@ -95,21 +98,26 @@
         line-height: 1.5;
     }
 
-    .backtoprevbutton {
+    .previousquestion {
         background-color: #5EC5B7;
         color: white;
-        transform: scale(1.2);
+        transform: scale(2);
         border: none;
-        margin-right: 5px;
+        margin-right: 10px;
     }
 
-    .backtoprevbutton:hover {
+    .previousquestion:hover {
         background-color: #F29E33;
-        transform: scale(1.2);
-        margin-right: 5px;
+        transform: scale(2);
+        margin-right: 10px;
     }
 
-    .backtoprev {
+    .previousquestiontext {
+        font-family: 'Fragmentcore';
+        font-size: 1.2em;
+    }
+
+    .previousquestiontext {
         font-family: 'Fragmentcore';
     }
 }
@@ -132,21 +140,21 @@
         flex: 1;
     }
 
-    .backtoprevbutton {
+    .previousquestion {
         background-color: #5EC5B7;
         color: white;
-        transform: scale(1.2);
+        transform: scale(2);
         border: none;
         margin-right: 5px;
     }
 
-    .backtoprevbutton:hover {
+    .previousquestion:hover {
         background-color: #F29E33;
-        transform: scale(1.2);
+        transform: scale(2);
         margin-right: 5px;
     }
 
-    .backtoprev {
+    .previousquestiontext{
         font-family: 'Fragmentcore';
     }
 

@@ -60,7 +60,7 @@
                 </i>
                 <div id="popupflex">
                     <span class="gallerytext">Are You Ready To Take The Quiz?</span>
-                    <button onclick = "StartQuiz()" class="startquiz">START QUIZ &#10148</button>
+                    <button onclick="StartQuiz()" class="startquiz">START QUIZ &#10148</button>
                 </div>
             </div>
         </div>
@@ -83,8 +83,10 @@
     <!--Appeal Page Start-->
 
     <div id="authpage">
-        <button onclick="backToHome()" class="backtohomebutton">&#8592</button>
-        <span class="backtohome">back to home page</span>
+        <div class="home">
+            <button onclick="backToHome()" class="backtohomebutton">&#8592</button>
+            <span class="backtohome">back to home page</span>
+        </div>
         <div class="fallacycontent">
             <span class="fallacytitle">APPEAL TO AUTHORITY</span>
             <div class="fallacypicturecarousel">
@@ -109,8 +111,10 @@
     <!--Cherry Page Start-->
 
     <div id="cherrypage">
-        <button onclick="backToHome()" class="backtohomebutton">&#8592</button>
-        <span class="backtohome">back to home page</span>
+        <div class="home">
+            <button onclick="backToHome()" class="backtohomebutton">&#8592</button>
+            <span class="backtohome">back to home page</span>
+        </div>
         <div class="fallacycontent">
             <span class="fallacytitle">CHERRY PICKING</span>
             <div class="fallacypicturecarousel">
@@ -134,8 +138,10 @@
 
     <!--Middle Page Start-->
     <div id="middlegroundpage">
-        <button onclick="backToHome()" class="backtohomebutton">&#8592</button>
-        <span class="backtohome">back to home page</span>
+        <div class="home">
+            <button onclick="backToHome()" class="backtohomebutton">&#8592</button>
+            <span class="backtohome">back to home page</span>
+        </div>
         <div class="fallacycontent">
             <span class="fallacytitle">MIDDLE GROUND</span>
             <div class="fallacypicturecarousel">
@@ -165,8 +171,10 @@
 
     <!--Quiz Page1 Start-->
     <div id="quizpage1">
-        <button onclick="backToHome()" class="backtohomebutton">&#8592</button>
-        <span class="backtohome">back to home page</span>
+        <div class="home">
+            <button onclick="backToHome()" class="backtohomebutton">&#8592</button>
+            <span class="backtohome">back to home page</span>
+        </div>
         <div class="questioncontent">
             <span class="question">1. The following meme is</br>an example of which fallacy?</span>
             <div class="q1">
@@ -178,7 +186,8 @@
                     <img class="q1_img" src="img/cherry2.jpg" />
                 </div>
                 <div class="q1choices q1right">
-                    <button onclick="NextQuestion1() ; rightAnswer()" class="question_button purple">Cherry Picking</button>
+                    <button onclick="NextQuestion1() ; rightAnswer()" class="question_button purple">Cherry
+                        Picking</button>
                     <button onclick="NextQuestion1()" class="question_button orange">Ad Eminem</button>
                 </div>
             </div>
@@ -249,29 +258,31 @@
         </div>
     </div> -->
     <div id="quizpage2">
-            <div id="previousquiz">
-                <button onclick="backToPrev1()" class="previousquestion">&#8592</button>
-                <span class="previousquestiontext">back to previous question</span>
-            </div>
-            <div id="quizpage2content">
-                <span class="question" id="question2title">2. Which fallacy does the</br>following describe?</span>
-                <span class="quizdescription" class="question2desc">Insisting that a claim is true just because an expert on the issue
-                        said it was true,</br>without giving any explanation. </span>
-                <div class="answerscontentbox">
-                        <button onclick="NextQuestion2()" class="question_buttonlarge teal">Ad Hominem</button>
-                        <button onclick="NextQuestion2() ; rightAnswer()" class="question_buttonlarge red">Appeal to Authority</button>
-                        <button onclick="NextQuestion2()" class="question_buttonlarge purple">Cherry Picking</button>
-                        <button onclick="NextQuestion2()" class="question_buttonlarge orange">Ad Eminem</button>
-        
-                </div>
+        <div class="previousquiz">
+            <button onclick="backToPrev1()" class="previousquestion">&#8592</button>
+            <span class="previousquestiontext">back to previous question</span>
+        </div>
+        <div id="quizpage2content">
+            <span class="question" id="question2title">2. Which fallacy does the</br>following describe?</span>
+            <span class="quizdescription" class="question2desc">Insisting that a claim is true just because an expert on
+                the issue
+                said it was true,</br>without giving any explanation. </span>
+            <div class="answerscontentbox">
+                <button onclick="NextQuestion2()" class="question_buttonlarge teal">Ad Hominem</button>
+                <button onclick="NextQuestion2() ; rightAnswer()" class="question_buttonlarge red">Appeal to
+                    Authority</button>
+                <button onclick="NextQuestion2()" class="question_buttonlarge purple">Cherry Picking</button>
+                <button onclick="NextQuestion2()" class="question_buttonlarge orange">Ad Eminem</button>
+
             </div>
         </div>
+    </div>
     <!--Quiz Page2 End-->
 
 
     <!--Quiz Page3 Start-->
     <div id="quizpage3">
-        <div id="previousquiz">
+        <div class="previousquiz">
             <button onclick="backToPrev2()" class="previousquestion">&#8592</button>
             <span class="previousquestiontext">back to previous question</span>
         </div>
@@ -307,7 +318,7 @@
 
     <!--Quiz Page4 Start-->
     <div id="quizpage4">
-        <div id="previousquiz">
+        <div class="previousquiz">
             <button onclick="backToPrev3()" class="previousquestion">&#8592</button>
             <span class="previousquestiontext">back to previous question</span>
         </div>
@@ -319,7 +330,7 @@
                     <button onclick="NextQuestion4() ; rightAnswer()" class="question_button red">Middle Ground</button>
                 </div>
                 <div>
-                    <img id= "q4_img" src="img/mid1.jpg" />
+                    <img id="q4_img" src="img/mid1.jpg" />
                 </div>
                 <div class="q1choices q4_choices">
                     <button onclick="NextQuestion4()" class="question_button purple">Cherry Picking</button>
@@ -389,35 +400,37 @@
         </div>
     </div> -->
     <div id="quizpage5">
-            <div id="previousquiz">
-                <button onclick="backToPrev4()" class="previousquestion">&#8592</button>
-                <span class="previousquestiontext">back to previous question</span>
-            </div>
-            <div id="quizpage5content">
-                <span class="question"  id="question2title">5. Which fallacy does the</br>following describe?</span>
-                <span class="quizdescription" class="question2desc">Claiming that the middle point of 2 extremes must be the truth.</span>
-                <div class="answerscontentbox">
-                    <button onclick="NextQuestion5()" class="question_buttonlarge teal">Ad Hominem</button>
-                    <button onclick="NextQuestion5() ; rightAnswer()"class="question_buttonlarge red">Middle Ground</button>
-                    <button onclick="NextQuestion5()" class="question_buttonlarge purple">Cherry Picking</button>
-                    <button onclick="NextQuestion5()" class="question_buttonlarge orange">Ad Eminem</button>
-                </div>
+        <div class="previousquiz">
+            <button onclick="backToPrev4()" class="previousquestion">&#8592</button>
+            <span class="previousquestiontext">back to previous question</span>
+        </div>
+        <div id="quizpage5content">
+            <span class="question" id="question2title">5. Which fallacy does the</br>following describe?</span>
+            <span class="quizdescription" class="question2desc">Claiming that the middle point of 2 extremes must be the
+                truth.</span>
+            <div class="answerscontentbox">
+                <button onclick="NextQuestion5()" class="question_buttonlarge teal">Ad Hominem</button>
+                <button onclick="NextQuestion5() ; rightAnswer()" class="question_buttonlarge red">Middle
+                    Ground</button>
+                <button onclick="NextQuestion5()" class="question_buttonlarge purple">Cherry Picking</button>
+                <button onclick="NextQuestion5()" class="question_buttonlarge orange">Ad Eminem</button>
             </div>
         </div>
+    </div>
     <!--Quiz Page5 End-->
 
     <!--Quiz Page6 Start-->
     <div id="quizpage6">
-        <div id="previousquiz">
+        <div class="previousquiz">
             <button onclick="backToPrev5()" class="previousquestion">&#8592</button>
             <span class="previousquestiontext">back to previous question</span>
         </div>
         <div class="questioncontent">
             <span class="question">6. Cherry Picking is:</span>
             <div class="q3">
-                <img onclick = "QuizResults() ; rightAnswer() ; getTotal()" class="q6_img" src=img/cherry3.jpg>
+                <img onclick="QuizResults() ; rightAnswer() ; getTotal()" class="q6_img" src=img/cherry3.jpg>
                 <span class="question_text">OR</span>
-                <img onclick = "QuizResults() ; getTotal()" class="q6_img" src="img/auth1.jpg">
+                <img onclick="QuizResults() ; getTotal()" class="q6_img" src="img/auth1.jpg">
             </div>
             <div class="q3_chooseone">
                 <span class="question_text">(CHOOSE ONE)</span>
@@ -445,14 +458,14 @@
     <!--Quiz congrats Start-->
     <div id="quizpage_last">
         <div id="quizpage_last_content">
-            <img id="congrats_img" src="img/last.jpg"/>
+            <img id="congrats_img" src="img/last.jpg" />
             <div id="results">
                 <span id="score"> </span>
                 <div id="replay">
-                    <i onclick = "StartQuiz() ; resetTotal()" id="replaybutton" class="material-icons">
+                    <i onclick="StartQuiz() ; resetTotal()" id="replaybutton" class="material-icons">
                         replay
                     </i>
-                    <span id="replay_text" >Take the quiz again</span>
+                    <span id="replay_text">Take the quiz again</span>
                 </div>
             </div>
         </div>
