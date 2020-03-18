@@ -16,6 +16,7 @@
 .backtohomebutton {
     background-color: #5EC5B7;
     color: white;
+    width: 25px;
     transform: scale(2);
     border: none;
     margin-right: 20px;
@@ -44,11 +45,8 @@
 .backtohome {
     font-family: 'Fragmentcore';
     font-size: 1.2em;
+    margin-left: 10px;
 }
-/* 
-.material-icons {
-    color: #5EC5B7;
-} */
 
 .material-icons {
     color: #5EC5B7;
@@ -73,4 +71,33 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+@media (max-width: 400px) {
+   .home {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+   
+    .backtohomebutton {
+        background-color: #5EC5B7;
+        color: white;
+        transform: scale(2);
+        border: none;
+        margin-right: 10px;
+    }
+
+    .backtohomebutton:hover {
+        background-color: #F29E33;
+        transform: scale(2);
+        margin-right: 10px;
+    }
+
+    .backtohome {
+        font-family: 'Fragmentcore';
+        font-size: 1.2em;
+        margin-top: 10px;
+    }
 }
